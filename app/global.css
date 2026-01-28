@@ -1,0 +1,14 @@
+@import 'tailwindcss';
+body{
+    background-color:royalblue;
+}
+.Nav{
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: royalblue;
+    border: 2px solid black;
+
+}

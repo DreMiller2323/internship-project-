@@ -1,0 +1,33 @@
+@import 'tailwindcss';
+
+form{
+   display: grid;
+   color: black;
+  background-color: black;
+  /* Centers content vertically and horizontally within the body */
+  place-items: center;
+  /* Ensures the body takes at least the full height of the viewport */
+  min-height: 0vh;
+    border-style: solid;
+   border: 1px solid black;
+}
+input{
+    background-color: whitesmoke;
+}
+button{
+    background-color: #007bff; /* A clean, modern blue */
+    color: #ffffff; /* White text for contrast */
+    border: none; /* Remove default border */
+    padding: 12px 24px; /* Ample padding for a good click area */
+    cursor: pointer; /* Indicate it's clickable */
+    font-size: 16px; /* Readable font size */
+    font-weight: 600; /* Slightly bolder text */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+    /* Sleek Aesthetics */
+    border-radius: 50px; /* Fully rounded corners for a "pill" shape */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
