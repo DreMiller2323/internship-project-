@@ -1,11 +1,14 @@
 
 "use client"
+//using client is required if youre planning on using e.preventdefault()
+//other wise you will need to use NEXT.JS built in html tags like<Link> instead of <link> for example 
 // import "../global.css"
 const Page = () => {
  const handleSubmit = (e) => {
     e.preventDefault();
-
+//capture form data with next.js FormData// 
     const formData = new FormData(e.currentTarget);
+ 
     const email = formData.get("email");
     const password = formData.get("password");
     for (let [key, value] of formData.entries()) {
