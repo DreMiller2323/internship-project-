@@ -11,6 +11,8 @@ const handleSubmit =(e)=>{
     for (let [key, value] of formData.entries()) {
       console.log(`${key}: ${value}`);
     }
+    //this feature takes in the submitted information the amount this is th eformula used by most strength coaches to calculate a one rep max on a lift
+    // this is an approximate formula weight * (1+ reps/30)
     // 1RM = Weight × (1 + Reps / 30)
    const oneRm = weight *(1+reps/30);
    console.log(oneRm)
